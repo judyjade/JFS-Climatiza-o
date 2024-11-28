@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Jomhuria&family=Jomolhari&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --cor-fundo: #fbf9f9;
+  --cor-fundo-serviços: #d9d9d9;
+  --cor-rodape: #adadad;
+  --fonte-texto: "Josefin Sans", sans-serif;
+  --fonte-titulo: "Jomolhari", serif;
+  --fonte-redes_sociais: "Jomhuria", serif;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--cor-fundo);
+  font-family: var(--fonte-texto);
+  font-size: 30px;
+}
+
+header {
+  background: linear-gradient(130deg, rgb(0, 0, 0) 20%, rgb(66, 66, 66), rgb(189, 187, 187));
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  z-index: 99;
+  width: 100%;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav img {
+  width: 180px;
+  margin-left: 50px;
+  border-radius: 20px;
+}
+
+nav a {
+  font-family: var(--fonte-titulo);
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+  margin-right: 50px;
+  transition: 0.5s all;
+}
+
+nav a:hover {
+  font-size: 35px;
+}
+
+#inicio {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3AVJCmV5cbxk0CUuvUnPq-oVu5pC9ZWtxoQ&s);
+  width: 100%;
+  height: 100vh;
+}
+
+.fundo {
+  backdrop-filter: blur(3.8px) contrast(76%);
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  text-align: center;
+  height: 85vh;
+}
+
+.fundo p {
+  font-size: 47px;
+  padding: 110px;
+  margin-top: 15%;
+}
+
+.fundo img {
+  width: 100%;
+  height: 70vh;
+  margin-right: 40px;
+  border-radius: 15px;
+  margin-top: 10%;
+}
+
+#sobre {
+  padding: 50px;
+  font-size: 30px;
+  width: 100%;
+  height: 80vh;
+  align-content: center;
+}
+
+.textos {
+  align-items: center;
+  margin: 50px 50px 60px 0;
+}
+
+.texto1 {
+  margin-left: 50px;
+  margin-right: 450px;
+  text-align: center;
+  margin-bottom: 65px;
+}
+
+.texto2 {
+  margin-right: 50px;
+  margin-left: 450px;
+  text-align: center;
+}
+
+#serviços {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+.titulo {
+  font-family: var(--fonte-titulo);
+  font-size: 60px;
+}
+
+.lista-serviços {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 40px 20px 50px 20px;
+}
+
+.itens-serviços,
+.itens-serviços2,
+.itens-serviços3,
+.itens-serviços4 {
+  background-color: var(--cor-fundo-serviços);
+  padding: 70px 40px;
+  border-radius: 15px;
+  margin: 5px;
+  font-size: 27px;
+  text-align: center;
+  align-items: center;
+}
+
+#trabalhos {
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS0AN9BbzF3Qn9eGTk_2ik6wf-cmDtlW89UA&s);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+}
+
+.fundo-trabalhos {
+  backdrop-filter: blur(3.8px) contrast(40%);
+  text-align: center;
+  padding: 70px;
+  height: 78.5vh;
+}
+
+.fundo-trabalhos p {
+  font-family: var(--fonte-titulo);
+  font-size: 42px;
+}
+
+.container-imagens {
+  width: 80%;
+  height: 65vh;
+  position: relative;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.container-imagens img {
+  position: absolute;
+  width: 100%;
+  height: 110%;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+.container-imagens img.active {
+  opacity: 1;
+}
+
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 60px 0;
+    width: 100%;
+    height: 65vh;
+}
+
+#contato h3 {
+    font-family: var(--fonte-titulo);
+    font-size: 45px;
+}
+
+#contato a {
+  display: flex;
+  font-family: var(--fonte-redes_sociais);
+  color: black;
+  text-decoration: none;
+  font-size: 48px;
+  align-items: center;
+  transition: 0.5s all;
+}
+
+#contato a:hover {
+  font-size: 60px;
+}
+
+#contato img {
+  margin: 20px;
+  width: 80px;
+}
+
+#contato img:first-child {
+  margin-bottom: 40px;
+}
+
+.logos {
+  display: inline;
+  margin-top: 40px;
+}
+
+footer {
+  background-color: var(--cor-rodape);
+  text-align: center;
+  padding: 20px;
+  font-size: 18px;
+  padding: 50px 0;
+}

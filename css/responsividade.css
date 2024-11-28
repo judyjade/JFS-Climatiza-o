@@ -1,0 +1,85 @@
+@media screen and (max-width: 1062px) {
+  nav img {
+    width: 130px;
+    margin-left: 10px;
+    border-radius: 13px;
+  }
+
+  nav p {
+    font-size: 24px;
+    margin-right: 40px;
+  }
+
+  #inicio {
+    height: 87.5vh;
+  }
+
+  .fundo {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .fundo p {
+    font-size: 35px;
+    padding: 40px;
+  }
+
+  .fundo img {
+    display: none;
+  }
+
+  #sobre {
+    padding: 30px 10px;
+  }
+
+  .texto1 {
+    margin-left: 10px;
+    margin-right: 0;
+  }
+
+  .texto2 {
+    margin-left: 50px;
+    margin-right: 0;
+  }
+
+  #serviços {
+    height: 180vh;
+  }
+
+  .lista-serviços {
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+
+  #trabalhos {
+    width: 100%;
+    height: 86vh;
+  }
+
+  .fundo-trabalhos {
+    padding: 60px 15px;
+    height: 70vh;
+  }
+
+  .container-imagens {
+    margin-top: 30px;
+    width: 100%;
+    height: 40%;
+  }
+
+  #contato h3 {
+    font-size: 40px;
+    margin-left: 30px;
+  }
+
+  #contato p {
+    margin-left: 33px;
+  }
+
+  .logos {
+    margin: 40px 0 60px 0;
+  }
+
+}
