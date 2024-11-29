@@ -39,6 +39,7 @@
   .fundo-sobre {
     backdrop-filter: blur(7px) contrast(60%);
     width: 100%;
+    height: 90vh;
     top: 87.8%;
   }
 
