@@ -1,6 +1,6 @@
 @media screen and (max-width: 1062px) {
   nav img {
-    width: 130px;
+    width: 137px;
     margin-left: 10px;
     border-radius: 13px;
   }
@@ -32,6 +32,22 @@
 
   #sobre {
     padding: 30px 10px;
+    width: 100%;
+    height: 87.5vh;
+    background-position: 80%;
+  }
+
+  .fundo-sobre {
+    position: absolute;
+    top: 87%;
+    left: 0;
+    backdrop-filter: blur(7px) contrast(60%);
+    width: 100%;
+    height: 96.5vh;
+  }
+
+  .textos {
+    margin-top: 100px;
   }
 
   .texto1 {
@@ -55,18 +71,18 @@
 
   #trabalhos {
     width: 100%;
-    height: 86vh;
+    height: 76vh;
   }
 
   .fundo-trabalhos {
     padding: 60px 15px;
-    height: 70vh;
+    height: 60vh;
   }
 
   .container-imagens {
     margin-top: 30px;
     width: 100%;
-    height: 40%;
+    height: 53%;
   }
 
   #contato h3 {
